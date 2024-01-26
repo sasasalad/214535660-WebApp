@@ -88,8 +88,10 @@ a{
 }
 /*----end of header-----*/
 
+figure{
+   margin-top: 10%;
+}
 figure .h1{
-   font-family: Georgia, 'Times New Roman', Times, serif;
-   font-size: 55px;
-   margin-top: 15%;
+   text-align: center;
+   letter-spacing: 2px;
 }
