@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>02. HTML Exercises</title>
+    </head>
+<body>
+<header>
+     <nav class="navbar">
+      <a href="#" class="nav-branding">Cess_Dev</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">About Us</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+
+            <div class="lines">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+          </div>
+
+    </nav>
+</header>
+
+
+<figure>
+  <figcaption><h1>My 02. HTML Excercises</h1></figcaption>
+  <img src="buildings.jpg" alt="view" style="width:100%; height: 100vh;">
+</figure>
+
+<section class="form">
+
+<h2>Simple Form</h2>
+
+<form action="/action_page.php">
+  <label for="uname">User's Email:</label><br>
+  <input type="text" id="uname" name="uname" value="User's Name" minlength="3" maxlength="20" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br>
+  <label for="upass">User's Password:</label><br>
+  <input type="text" id="upass" name="upass" value="**********" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
+
+<input type="radio" name="gender" value="male"> Male
+<input type="radio" name="gender" value="female"> Female
+<br><br>
+<input id="checkbox" type="checkbox" />
+<label for="checkbox"> I agree to the <a href="#">Terms and Conditions</a>.</label>
+<br><br>
+<input type="submit" value="Submit">
+</form> 
+
+</section>
+
+<section class="table">
+
+    <h2>Simple Table</h2>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <td>John</td>
+    <td>25</td>
+    <td>New York</td>
+  </tr>
+  <tr>
+    <td>Jane</td>
+    <td>30</td>
+    <td>Los Angeles</td>
+  </tr>
+</table>
+
+</section>
+
+<article>
+    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
+    </iframe>
+    <h1>GeeksforGeeks</h1>
+        <p>
+            Sandeep Jain(FOUNDER) An IIT Roorkee alumnus and
+            founder of GeeksforGeeks. Apart from GeeksforGeeks,
+            he has worked with DE Shaw and Co. as a software
+            developer and JIIT Noida as an assistant professor.
+        </p>
+</article>
+ 
+<footer>
+  <div class="footer-content">
+      <p>________________________________________________________________________</p>
+      <h3>Secheflora</h3>
+      <p>@ 2023 Secheflora USA, All rights reserved<br>
+      Designed and Developed by: cexxa.d</p>
+      <div class="socials">
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-twitter"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+  </div>
+</footer> 
+
+<script src="script.js"></script>
+</body>
+</html>
