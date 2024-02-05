@@ -40,20 +40,40 @@
      page, making some of the content interactive.
   </p>
 </figcaption>
-  <img src="buildings.jpg" alt="view">
+  <img src="webdev.jpg" alt="view">
 </figure>
 </section>
 
-
+                  
 
 <section class="form">
-<h2>Simple Form</h2>
-<form action="/action_page.php">
-  <label for="uname">User's Email:</label><br>
-  <input type="text" id="uname" name="uname" value="User's Name" minlength="3" maxlength="20" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required><br>
+  <div class="form-popup">
+  <div class="form-box">
+    <div class="form-details">
+      <h2>Simple Form</h2>
+      <p>Please log in using your personal information to stay connected with us.</p>
+    </div>
+  <div class="form-content">
+    <h2>LOGIN</h2>
+    <form action="#">
+      <div class="input-field">
+        <label for="uname">User's Email:</label><br>
+  <input type="text" id="uname" name="uname" placeholder="email" minlength="3" maxlength="20" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
   <label for="upass">User's Password:</label><br>
-  <input type="text" id="upass" name="upass" value="**********" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br><br>
-
+  <input type="password" id="upass" name="upass" placeholder="password" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+      
+      <a href="#" class="forgat-pass">Forgot Password?</a>
+      <button type="submit">Log In</button>
+      <div class="bottom-link">
+        Don't have an account?
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+<!----
 <input type="radio" name="gender" value="male"> Male
 <input type="radio" name="gender" value="female"> Female
 <br><br>
@@ -61,7 +81,7 @@
 <label for="checkbox"> I agree to the <a href="#">Terms and Conditions</a>.</label>
 <br><br>
 <input type="submit" value="Submit">
-</form> 
+--->
 </section>
 
 
