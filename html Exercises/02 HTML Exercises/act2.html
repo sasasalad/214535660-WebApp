@@ -61,8 +61,13 @@
   <input type="text" id="uname" name="uname" placeholder="email" minlength="3" maxlength="20" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
   <label for="upass">User's Password:</label><br>
   <input type="password" id="upass" name="upass" placeholder="password" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
-      
-      <a href="#" class="forgat-pass">Forgot Password?</a>
+      </div>
+  <div class="click">
+      <a href="#" class="forgat-pass">Forgot Password?</a><br><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+      <input id="checkbox" type="checkbox" />
+      <label for="checkbox"> I agree to the <a href="#">Terms and Conditions</a>.</label>
       <button type="submit">Log In</button>
       <div class="bottom-link">
         Don't have an account?
@@ -73,33 +78,25 @@
   </div>
 </div>
 </div>
-<!----
-<input type="radio" name="gender" value="male"> Male
-<input type="radio" name="gender" value="female"> Female
-<br><br>
-<input id="checkbox" type="checkbox" />
-<label for="checkbox"> I agree to the <a href="#">Terms and Conditions</a>.</label>
-<br><br>
-<input type="submit" value="Submit">
---->
 </section>
 
-
-
-<section class="table">
+<section class="tables">
     <h2>Simple Table</h2>
 <table>
   <tr>
+    <th>#</th>
     <th>Name</th>
     <th>Age</th>
     <th>City</th>
   </tr>
   <tr>
+    <th>1</th>
     <td>John</td>
     <td>25</td>
     <td>New York</td>
   </tr>
   <tr>
+    <th>2</th>
     <td>Jane</td>
     <td>30</td>
     <td>Los Angeles</td>
@@ -107,18 +104,13 @@
 </table>
 </section>
 
-
-
 <article>
-    <iframe width="420" height="345" src="https://www.youtube.com/embed/tgbNymZ7vqY">
-    </iframe>
-    <h1>GeeksforGeeks</h1>
-        <p>
-            Sandeep Jain(FOUNDER) An IIT Roorkee alumnus and
-            founder of GeeksforGeeks. Apart from GeeksforGeeks,
-            he has worked with DE Shaw and Co. as a software
-            developer and JIIT Noida as an assistant professor.
-        </p>
+  <h2>The Video and Audio Element</h2>
+  <p>Click on the play button to play:</p>
+  <div class="row">
+    <video class="coll" src="vid.mp4" width="800" height="600" controls muted autoplay loop></video>   
+    <audio class="coll" src="aud.mp3" controls></audio>
+  </div>
 </article>
  
 
@@ -126,15 +118,9 @@
 <footer>
   <div class="footer-content">
       <p>________________________________________________________________________</p>
-      <h3>Secheflora</h3>
-      <p>@ 2023 Secheflora USA, All rights reserved<br>
-      Designed and Developed by: cexxa.d</p>
-      <div class="socials">
-          <a href="#"><i class="bi bi-facebook"></i></a>
-          <a href="#"><i class="bi bi-twitter"></i></a>
-          <a href="#"><i class="bi bi-instagram"></i></a>
-          <a href="#"><i class="bi bi-linkedin"></i></a>
-        </div>
+      <h3>Cess_Dev</h3>
+      <p>@ 2024 Ces_Dev UC Baguio City, All rights reserved<br>
+      Designed and Developed by: Del Rosario Princess</p>
   </div>
 </footer> 
 
