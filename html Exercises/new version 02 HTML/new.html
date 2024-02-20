@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="new.css">
+        <title>02. HTML Exercises new version</title>
+    </head>
+<body> 
+<header>
+     <nav class="navbar">
+      <a href="#" class="nav-branding">Cess_Dev</a>
+
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Image</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Forms</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Table</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Audio&Video</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Audio&Video</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">GoogleMap</a></li>
+            </ul>
+
+            <div class="lines">
+              <span class="line"></span>
+              <span class="line"></span>
+              <span class="line"></span>
+          </div>
+
+    </nav>
+</header>
+<section class="hero">
+<figure>
+<figcaption>
+  <h1>WHAT IS WEB DEVELOPMENT?</h1>
+  <p>Web application development will typically have a short development life-cycle 
+    lead by a small development team. Front-end development for web applications is
+     accomplished through client-side programming. Client refers to a computer 
+     application such as a web browser. Client-side programming will typically 
+     utilize HTML, CSS and JavaScript. HTML programming will instruct a browser 
+     how to display the on-screen content of web pages, while CSS keeps displayed
+     information in the correct format. JavaScript will run JavaScript code on a web
+     page, making some of the content interactive.
+  </p>
+</figcaption>
+  <img src="5.jpg" alt="view">
+</figure> 
+</section>
+
+<section class="form">
+  <div class="form-popup">
+  <div class="form-box">
+    <div class="form-details">
+      <h2>Simple Form</h2>
+      <p>Please log in using your personal information to stay connected with us.</p>
+    </div>
+  <div class="form-content">
+    <h2>LOGIN</h2>
+    <form action="#">
+      <div class="input-field">
+        <label for="uname">User's Email:</label><br>
+  <input type="text" id="uname" name="uname" placeholder="email" minlength="3" maxlength="20" pattern="[a-z0-9._%+\-]+@[a-z0-9.\-]+\.[a-z]{2,}$" required>
+  <label for="upass">User's Password:</label><br>
+  <input type="password" id="upass" name="upass" placeholder="password" minlength="8" maxlength="12" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+      </div>
+  <div class="click">
+      <a href="#" class="forgat-pass">Forgot Password?</a><br><br>
+      <input type="radio" name="gender" value="male"> Male
+      <input type="radio" name="gender" value="female"> Female<br><br>
+      <input id="checkbox" type="checkbox" />
+      <label for="checkbox"> I agree to the <a href="#">Terms and Conditions</a>.</label>
+      <button type="submit">Log In</button>
+      <div class="bottom-link">
+        Don't have an account?
+        <a href="#">Sign Up</a>
+      </div>
+    </div>
+    </form>
+  </div>
+</div>
+</div>
+</section>
+
+<section class="tables">
+    <h2>Simple Table</h2>
+<table>
+  <tr>
+    <th>#</th>
+    <th>Name</th>
+    <th>Age</th>
+    <th>City</th>
+  </tr>
+  <tr>
+    <th>1</th>
+    <td>John</td>
+    <td>25</td>
+    <td>New York</td>
+  </tr>
+  <tr>
+    <th>2</th>
+    <td>Jane</td>
+    <td>30</td>
+    <td>Los Angeles</td>
+  </tr>
+</table>
+</section>
+
+<article>
+  <h2>The Video and Audio Element</h2>
+  <p>Click on the play button to play:</p>
+  <div class="row">
+    <video class="coll" src="vid.mp4" width="800" height="600" controls muted autoplay loop></video>   
+    <audio class="coll" src="aud.mp3" controls></audio>
+  </div>
+</article>
+ 
+<section class="map">
+  <h2>Location Map</h2>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287.4400764199853!2d120.59776324983426!3d16.408753456798173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a1426d6ff0fd%3A0xfe9ac4d43fc84157!2sUniversity%20of%20the%20Cordilleras!5e0!3m2!1sfil!2sph!4v1708427015240!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</section>
+
+
+<footer>
+  <div class="footer-content">
+      <p>________________________________________________________________________</p>
+      <h3>Cess_Dev</h3>
+      <p>@ 2024 Ces_Dev UC Baguio City, All rights reserved<br>
+      Designed and Developed by: Del Rosario Princess</p>
+  </div>
+</footer> 
+
+<script src="script.js"></script>
+</body>
+</html>
