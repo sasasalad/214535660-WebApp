@@ -4,50 +4,52 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
         <link rel="stylesheet" href="new.css">
         <title>02. HTML Exercises new version</title>
     </head>
 <body> 
 <header>
-     <nav class="navbar">
-      <a href="#" class="nav-branding">Cess_Dev</a>
+  <a href="#"  class="logo">Cess_Dev</a>
 
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#" class="nav-link">Image</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Forms</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Table</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Audio&Video</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Audio&Video</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">GoogleMap</a></li>
-            </ul>
+  <nav>
+    <ul class="nav-menu">
+      <li class="nav-item"><a href="#image"  >Image</a></li>
+        <li class="nav-item"><a href="#form">Form</a></li>
+          <li class="nav-item"><a href="#table">Table</a></li>
+            <li class="nav-item"><a href="#audio&video">Audio&Video</a></li>
+              <li class="nav-item"><a href="#map">Map</a></li>
+    </ul>
 
-            <div class="lines">
-              <span class="line"></span>
-              <span class="line"></span>
-              <span class="line"></span>
-          </div>
+    <div class="lines">
+      <span class="line"></span>
+      <span class="line"></span>
+      <span class="line"></span>
+    </div>
+  </nav>
 
-    </nav>
-</header>
-<section class="hero">
+</header>   
+<section id="image" class="hero">
 <figure>
 <figcaption>
   <h1>WHAT IS WEB DEVELOPMENT?</h1>
-  <p>Web application development will typically have a short development life-cycle 
-    lead by a small development team. Front-end development for web applications is
+  <p><cite>Web Application Development</cite> will typically have a short development life-cycle 
+     lead by a small development team. Front-end development for web applications is
      accomplished through client-side programming. Client refers to a computer 
      application such as a web browser. Client-side programming will typically 
      utilize HTML, CSS and JavaScript. HTML programming will instruct a browser 
      how to display the on-screen content of web pages, while CSS keeps displayed
      information in the correct format. JavaScript will run JavaScript code on a web
      page, making some of the content interactive.
-  </p>
+  </p><br>
+  <p><dfn><abbr title="Cascading Style Sheets">CSS</abbr>
+  </dfn> is a language that describes the style of an HTML document.</p>
 </figcaption>
   <img src="5.jpg" alt="view">
 </figure> 
 </section>
 
-<section class="form">
+<section id="form" class="form">
   <div class="form-popup">
   <div class="form-box">
     <div class="form-details">
@@ -81,7 +83,7 @@
 </div>
 </section>
 
-<section class="tables">
+<section id="table" class="tables">
     <h2>Simple Table</h2>
 <table>
   <tr>
@@ -105,6 +107,7 @@
 </table>
 </section>
 
+<section id="audio&video">
 <article>
   <h2>The Video and Audio Element</h2>
   <p>Click on the play button to play:</p>
@@ -113,10 +116,23 @@
     <audio class="coll" src="aud.mp3" controls></audio>
   </div>
 </article>
- 
-<section class="map">
+</section>
+
+<section id="map" class="map">
   <h2>Location Map</h2>
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d287.4400764199853!2d120.59776324983426!3d16.408753456798173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a1426d6ff0fd%3A0xfe9ac4d43fc84157!2sUniversity%20of%20the%20Cordilleras!5e0!3m2!1sfil!2sph!4v1708427015240!5m2!1sfil!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+  <div class="social-media">
+    <p>Connect with us: </p>
+    <div class="social-icons">
+      <a href="#"><i class="bi bi-facebook"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-linkedin"></i></a>
+    </div>
+   </div>
+
+
 </section>
 
 
